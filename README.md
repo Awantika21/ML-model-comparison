@@ -18,22 +18,22 @@ The dataset consists of 3424 data points with 69 features each collected from Ka
 
 ### Faetures
 
-Patient ID: Unique ID of each patient
-Age: Age of the patient during their therapy
-Race: Race of the patient from the patient table
-Region: Region of the patient from the patient table
-Ethnicity: Ethnicity of the patient from the patient table
-Gender: Gender of the patient from the patient table
-IDN Indicator: Flag indicating patients mapped to IDN
+- Patient ID: Unique ID of each patient
+- Age: Age of the patient during their therapy
+- Race: Race of the patient from the patient table
+- Region: Region of the patient from the patient table
+- Ethnicity: Ethnicity of the patient from the patient table
+- Gender: Gender of the patient from the patient table
+- IDN Indicator: Flag indicating patients mapped to IDN
 
 #### Provider Attributes
-NTM - Physician Specialty: Specialty of the HCP that prescribed the NTM Rx
+- NTM - Physician Specialty: Specialty of the HCP that prescribed the NTM Rx
 
 #### Clinical Factors
-NTM - T-Score: T Score of the patient at the time of the NTM Rx (within 2 years prior from rxdate)
-Change in T Score: Change in Tscore before starting with any therapy and after receiving therapy (Worsened, Remained Same, Improved, Unknown)
-NTM - Risk Segment: Risk Segment of the patient at the time of the NTM Rx (within 2 years days prior from rxdate)
-Change in Risk Segment: Change in Risk Segment before starting with any therapy and after receiving therapy (Worsened, Remained Same, Improved, Unknown)
+- NTM - T-Score: T Score of the patient at the time of the NTM Rx (within 2 years prior from rxdate)
+- Change in T Score: Change in Tscore before starting with any therapy and after receiving therapy (Worsened, Remained Same, Improved, Unknown)
+- NTM - Risk Segment: Risk Segment of the patient at the time of the NTM Rx (within 2 years days prior from rxdate)
+- Change in Risk Segment: Change in Risk Segment before starting with any therapy and after receiving therapy (Worsened, Remained Same, Improved, Unknown)
 NTM - Multiple Risk Factors: Flag indicating if patient falls under multiple risk category (having more than 1 risk) at the time of the NTM Rx (within 365 days prior from rxdate)
 NTM - Dexa Scan Frequency: Number of DEXA scans taken prior to the first NTM Rx date (within 365 days prior from rxdate)
 NTM - Dexa Scan Recency: Flag indicating the presence of Dexa Scan before the NTM Rx (within 2 years prior from rxdate or between their first Rx and Switched Rx; whichever is smaller and applicable)
