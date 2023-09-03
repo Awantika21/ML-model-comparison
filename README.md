@@ -52,3 +52,10 @@ The dataset consists of 3424 data points with 69 features each collected from Ka
 
 Target Variable - `Persistency_Flag` : Flag indicating if a patient was persistent or not
 
+## Analysis
+### Model
+- Sklearn Logistic regression
+- Sklearn Support Vector Machine (SVM)
+
+Using Support Vector Machine Model- Accuracy on Test Dataset is 74.5136186770428 % while using Logistic Regression Model- Accuracy on Test Dataset is 81.22568093385215 %.
+We compared both the models with proper pre-processiong of data. 
