@@ -16,7 +16,7 @@ We also need to have software installed to run and execute a Jupyter Notebook.
 ## Data
 The dataset consists of 3424 data points with 69 features each collected from Kaggle.
 
-### Faetures
+### Features
 
 - Patient ID: Unique ID of each patient
 - Age: Age of the patient during their therapy
